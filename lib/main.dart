@@ -11,7 +11,7 @@ void main() async {
   try {
     await MongoDB.connect();
   } catch (e) {
-    print("Erreur:$e");
+    print("il y a une erreur:$e");
   }
   runApp(MyApp());
 }
